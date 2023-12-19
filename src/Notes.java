@@ -26,10 +26,10 @@ Class has attributes and behaviors.
 String is non primitive data type.String.
  */
 
-Every class in java can act as datatype, and all of these datatypes are known as
-non primitive datatypes.
+//Every class in java can act as datatype, and all of these datatypes are known as
+//non primitive datatypes.
 
-Class is also a datatype, and so DOG is a datatype.
+//Class is also a datatype, and so DOG is a datatype.
 
         /*
         Dog => Data type
