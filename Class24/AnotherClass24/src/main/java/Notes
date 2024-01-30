@@ -1,0 +1,41 @@
+1st InterFace was List (arrayList and LinkedList) = allows duplicate and remembers order
+2nd InterFace was Set (and its 3Types) = doesn't allow duplicate
+3rd InterFace is Maps                  = helps store two section/things at a same time unlike 'list' and 'set' stores data one at a time(1 section)
+
+
+SET is an interface and has its 3 types (that behave differently which is like polyMorphism)
+1) HashSEt > fast but random order
+2) LinkhashSet> slow and remembers the order
+3) TreeSet   >  slow in inserting new element cuz always keeps data sorted ( retrieving/searching the element is awosome and quick)
+___________________________________________________________________________
+Maps > has two sections > keys and values
+map works great when there's pair
+
+Maps:
+     Maps allow us to store key value pairs.
+     Keys are always unique but values can be duplicate
+     There are three main classes which implement Map Interface;
+     1) HashMap  2) LinkedHasMap 3) TreeMap
+
+HashMap:       fast but doesnt rememebr the order in which I insert the items
+LinkedHasMap:  slow and rememebrs the order
+TreeMap:        keeps data sorted but insertion is slow
+
+
+I think Map has 3 main operations;
+1)  adding
+2)  iterate (entrySet & Lambda)
+3)  modify/delete/replace
+
+* in python Maps are called dictionary
+Maps are in real directory cuz they act ike dictionary
+there's a key(word) and its meaning (value)
+
+
+
+
+
+-----------------------------
+2DArray's limitions;
+1) fixed in size
+2) dont have built in method
