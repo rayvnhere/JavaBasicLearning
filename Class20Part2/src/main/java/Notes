@@ -1,0 +1,17 @@
+            GOt this from Asghar's JavaSlides (go over there)
+
+Assigning a value of one type to a variable of another type is known as Type Casting.
+2 two types of casting in Java:
+• Widening Casting (Implicit/ Automatic)   /UpCasting
+        - converting lower data type into higher.
+• Narrowing Casting(Explicit/ Manual)     /DownCasting
+        -converting higher data type into lower.
+
+
+Upcasting: Casting from a subclass to a superclass is called upcasting
+Downcasting: It's the casting from a superclass
+to a subclass.
+
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIi
+
+// *you can only CALL the method's that are overridden

@@ -1,0 +1,51 @@
+4 Pillars of OOPs;
+  Inheritance
+  Polymorphism
+  Abstraction
+  Encapsulation
+
+
+Benefit of Inheritance; it allows to reuse code, its helps to use classes using existign classes,
+avoid code repetition.
+
+PolyMorphism; does the same
+
+Type casting in object:
+    Converting the datatype of data.
+    There are two types of typecasting upcasting and down-casting.
+
+*without ParentChild relationship typecasting wont work (need inheritance)
+*typeCasting was done in class 3 for primitive dataType?
+> it was change data from one type to another type
+> there was two types downCasting and Upcasting
+> small dataType to big dataType is called implicit/automatic/widening
+
+____________________________________________________________________________________________________
+        /*should use array to hold multiple ChildClass's objects but why?
+        A:  to store multiple values or Objects we have to use ARRAY
+            as a variable cant hold/store  Multiple objects/values
+
+                   e.g. Animal [] animalVar={d1,c1,a1};
+        //Can store all childClasses even ParentClass inside Parent
+_____________________________________________________________________________________________________
+
+/*  There are two ways;
+  1) Static POlyMo Approach    >uses MethodOverLoading no need of inheritance
+  2) Dynamic PolyMO Approach   >only possible through INHERITANCE and MethodOverRidding (MoR exact same method except
+                                                                                                         inside {parmeters}
+
+        //  this is called dynamic polymo approach, here the only thing changed is object in (b) variable
+        //  polymo(same methods perfoms differently depending on the object we use to call it
+        //  polyMO is > "single action performed in many way"
+
+ */
+_____________________________________________________________________________________________________________
+/* if i dont want to create objects of all browsers
+then I need to do is this Browser[] bArr={chrome,new FireFox(), new Safari(),new Edge()};
+
+this saved me from writing creating objects for each browser that I even called
+Static Polymo Appoach (thats time consuimg appraoch) better is dynamic
+and I can use dynamic without creating each browser object
+with the help of creating object inside {new Chrome()} i just created object inside array
+as for creating an object all i need is, new keyword nameOfClass with parenthesis ()
+ */_______________________________________________________________________________________________________
