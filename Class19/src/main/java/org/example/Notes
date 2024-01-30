@@ -1,0 +1,84 @@
+MehtodOverride:
+MO allows child classes to modify methods which are being inherited from
+parent classes.
+-MO replaces
+ - e.g. B inherits all from A but B doesnt like smth one or all steps then
+        B can change methods
+
+Benefits of MO:
+  gives flexibity to child classes to change methods which are coming from parents if they want to.
+
+
+/*what does @override do? it checks rules to override such as
+returnType or (void) should be same for Both Parent| child cuz
+override only happens when they match in 1)accessModifier 2) returnTye 3)methodName 4)same parametersName&Values
+otherwise its MethodLoading if even 1 thing gets changed
+ */  BUT
+
+but only one thing can be changed i.e. the scope of Visibility, it meams;
+*) widening is allowed       (e.g. Defualt(less) to Public (big)  o>0 good
+*) narrowing is not allowed  (e.g. PUBLic (its big) to defualt or private (these are less) 0>o not good
+
+
+Q: can we override private method?
+A: becuz to be able to override smth it should be availe to child, private isnt of child it only belongs to Parent
+
+Q: Static method cannot be overridden/can we overddi the main method
+A: no because its static, static can be overloaded but not overriden
+*note* you can overload both static and non static methods
+
+Q: can I overload the main method
+A: yes, overMeth( MO says have the same nameMethod but change it paremeter this is safe)
+
+Q: can I overload the private methods?
+A: yes, we can
+
+   //readSlidesTo know more interview questions
+
+____________________________________________________________________________
+
+Final Keyword
+
+e.g. parentClass doesnt want ChildClass to override the method of Parent
+then Parent can restrict that by putting the Final keyword at the start of void e.g. final void method();
+then childClasses cant override that method, but yes for methodLoading is possible
+
+              1st useCase final *no inheritance of class
+              2nd useCase final *no overriding of method
+              3rd useCase final *no change of variable's value
+
+*final before class of Parent will restrict childClass to inherit that class as well
+
+3rd useCase of Final is cannot change the VALUE of Final FieldsValue
+
+*MANDATORY- //if i use final keyword and dont assign value to the field, I'll get error
+e.g. for the below greetings, i'll get error if I dont assign value of "hello"
+
+*most of the time final is found with static
+e.g. public static String name="kawoon";
+________________________________________________
+       /*when changing the value of String Value again and again, it will give error
+                so its better to use StringBuilder
+
+                StringBuffer is like StrignBuilder
+                StringBuffer has treadsafety, makes the code more secure*/
+
+        /*String has .concat method
+        //concat is called .append for StringBuilder
+        StringClass is designed to save space, it reuses, slow but memrory affeciant
+        StringBuilder is desgnied for speed, nver searches memoery i.e.
+
+    */
+
+
+
+
+
+
+_________________________________________
+Regular Expression
+is used to specify patterns in String
+
+_______________________________-
+*gutterArea is where we put the breakPoints
+*without inheritance method overriding is not possible
