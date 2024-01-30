@@ -1,0 +1,32 @@
+Encapsulation - secured organized class
+ 1) for every entity - create a class for it and have the methods related to it inside that class
+ 2) make instance var PRIVATE
+ 3) create getterSetter method (for other classes to ready and modify)
+
+Encapsulation:
+    Encapsulation says create a class for every entity and define
+    methods related to that entity in that class instead of putting
+    everything inside the main method. It also says make your
+    fields private and define getter setter methods for those
+    fields.
+------------------------------------
+/*  short form of getter means to get
+
+  why we need getter method?
+  to expose the fields to other classes for READ only
+
+  how getter is written/use?
+  -use get keyword      and Same DataType as of Field
+  -getter return data   and  nameofField   */
+-------------------------------------
+/*  why we need setter method?
+  with setter method, i can read value of field and setter helps to modify the value of fields
+  /*   how setter is written/use?
+             -use set keyword
+             -void nameofField
+             -this(cuz same name of field and same name in setter's parameter        */
+-------------------------------------
+
+
+
+

@@ -1,0 +1,24 @@
+pros of abstract > can create method without body
+cons of abstract > cant create object of abstract class
+
+Q: Can we have instance Fields inside abstract class?
+A: yes, can have private/public/protected instance fields
+
+*can have static fields/ static methods as well
+
+Q: if there are instaFields should we also have a CoN
+   to initialize those fields?
+A: we cant create object of class, so there's no point of creating
+   CoN inside abstractClass, BUT we can use them in childClasses with
+   the help of super keyword
+
+* purpose of CoN is to help create object
+
+__________________________
+
+Q: what is inheritance?
+A:
+
+Q: how inheritance helps us?
+A:
+

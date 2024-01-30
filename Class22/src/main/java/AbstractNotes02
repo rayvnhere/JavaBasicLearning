@@ -1,0 +1,48 @@
+Why should we create abstract methods?
+  1) when we know that every child will be overriding
+     a method we dont need to have a method body
+  2) it acts as a template when we create a mtheod as abstract
+     every child must provide body for that.
+     It is used to enforce methods on the child classes.
+
+* any number of methods in Abstract parents forces childClasses to have those methods as well
+  but when we dont want to force childClases then; we dont use abstract and leave the classes blank
+* in abstraction there should always be a childClass (to force things)
+* because they belong to class, you cant override static methods, neither can I achieve polyMo if theere's not overridding
+* to achieve polyMo or Abstraction, your method must be instance method
+* when we have abstractMethod, then we should have that method's class as abstract as well and doing this
+  means we cant create its object anymore
+* if we want to access specific methods of childClass then we perform downCasting
+* abstract is useless, if there's no 1) inheritane or 2) overidding   (only useful when used with ChildClass)
+* can have complete method as well with sout inside abstract class
+
+what is abstraction?
+    1) it is to enforce methods on childClasses
+    2) if parents method is going to be override in child classes
+    then its better to leave the method body empty in parentClass
+    and 3) using the abstract keyword with the method
+
+There are two ways to achieve abstraction in java;
+1) Abstract Class
+2) Interfaces
+
+In Java we have two types of Classes;
+1) Abstract Class
+2) Concrete Class (the normal class that we have creating)
+
+rules when using abstraction -
+1) must have abstract keyword(when created a abs method should have absClass)
+2) no restriction (can have normal methods(with body) and absMethod(without body)
+3) whenever you create absract class, we cannot create object of that class, what I have to do to create object;
+    i) create a childClass, extend it and implement the method > then can create object
+4) private access modifier cannot be used with abstract(should be public)
+5) final keyword cannot be used with abstract i.e (final abstract void eat ();  )
+   final (means cannot override) with abstract (means must override in that childClass)
+
+
+
+Q: What happens if we put Final keyword with a method?
+Q: 3 uses of Final?
+Final Class: no other class can inherit it from other class
+Final Method: this method is final and we cannot override it
+Final Field: if final put with field, then no one can change the value of field

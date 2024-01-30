@@ -1,0 +1,42 @@
+* Class 24 retrieved from review 12
+
+Collection of Framework;
+has many classes;
+
+1) ArrayList   (class)
+2) LinkedList  (class)
+
+
+Set: (is a class) (also helps with polyMorphism)
+   sets are very similar to list but they do not allow duplicate elements
+
+   they have special properties see E3Sets
+
+Three Types of sets;
+1) HashSet         has SET interface doesn't allow duplicate
+2) LinkedHashSet   has SET interface doesn't allow duplicate
+3) TreeSet         has SET interface doesn't allow duplicate
+
+       HashSet: e.g. not organized (men wears anything)
+Upside > they are FAST
+Downside> dont store the data in order
+
+       LinkedHashSet: e.g. organized (women needs matching shoes & accessories)
+Upside > it remembers the order (called insertion order)
+Downside> its slower then HashSet
+
+       TreeSet:
+Upside > keeps the data arranged/sorted always, nums and letters will be sorted like 1234
+DownSide> inserting new element is very slow cuz of sort
+
+
+there's no getMethod in SET but can use enchancedFor
+cant use while or for loop, cuz no respect for index
+
+
+
+The common thing between SET and LIST is > 'Collection Interface' see slides for graph
+'Collection' is an interface
+and because 'Collection' is the grandparent of SET and LIST, thats why they are convertable meaning
+arrayList can be coverted to linkedList, linkedList can be converted to treeSet and treeSet to hashSet
+any collection's class can be converted to any other collection class see E8Collections

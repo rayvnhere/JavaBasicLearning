@@ -1,0 +1,30 @@
+
+Interface is something which is common in two systems. It is
+    like a contract that helps us know what type of methods
+    should be present in a class for that class to be able to work
+    with other classes.
+
+Asghar's concept-
+        interface is like a contract; its about what type
+        of method a class must have to interact with other clases (must have common Methods)
+        only then
+
+Meaning of interFace in realLife -
+        the point when two things meet
+____________________________________________
+
+* by default interface access modifier is PUBLIC
+* by default a class access modifier is DEFAULT
+
+* Interface are very similar to abstract classes but why?
+Q: difference between abstract and interface?
+A: by default INTERFACE methods are made ABSTRACT & PUBLIC but without abstract keyword
+__________________________________________
+//how to make readData interact with ExcelFile?
+1) make common methods
+2) method header only & no body
+3) interface keyword  & implement keyword
+
+Q: difference between abstract and interface?
+A: by default interface methods are made ABSTRACT & PUBLIC
+   but without abstract keyword

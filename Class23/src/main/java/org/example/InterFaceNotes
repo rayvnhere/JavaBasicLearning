@@ -1,0 +1,31 @@
+InterFace
+ They are contracts, they are used to make sure that every programmer
+ is on same page?They use abstraction for this purpose.
+
+But how do they make sure of that?
+
+  Create interface that defines :-
+  add interFace after public
+  what kind of methods i want everyone to implement
+
+  by default every method inside InterFace method is;
+  1) public
+  2) abstracts meaning no body/curly bracket of codes
+
+  they only have;
+  1) returnType
+  2) nameOfmethod
+  3) parameters
+
+*can have multiple methods in interFace
+*when classes not related to each other use abstraction
+*interFaces cannot have instanceVAr
+*interFaces are bigger dataTypes
+*cannot override in interface, we can only override in classes
+
+
+  go with interFace when classes have no related methods in them
+
+how others will use the interFace Contract?
+  1) use implements keyword
+  2) provide body of ALL METHODS of interFace Contract

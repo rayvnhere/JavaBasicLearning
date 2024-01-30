@@ -1,0 +1,39 @@
+Q: What is a class?
+A: Class is a blueprint/template, inside the class we have a block of code.
+
+Q: What features does class have?
+A: inside the class we have attributes > we represent thme in the form of variables
+   behaviours > we represent in the form of methods
+
+Q: How many times of Variables?
+A: There are three
+ 1) LocalVar  > inside Methods/Class/blockOfCode
+ 2) InstanceVar  > inside Class but outside BlockOfCode/Methods
+ 3) Static/Class Var  > they are universal; also knowns as Class Variable
+                      > common features shared by all objects
+                      > only one copy but belongs to all
+                      > should be public to be accessible to all
+                      > they are created; inside class but outside of CoN's/ methods
+
+Q: What is Constructor?
+A: It is a special method, that is used to initilazize an obejct of a class
+     > created = same name as of the class
+     > doesnt has returnType, not even void
+
+Q: How CoN's are called?
+A: They are called automatically when an object is created
+
+Q: what is the purpose of CoN's?
+A: to initialize the attributes and behaviours of class
+
+Q: why you need this keyword?
+A:
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+*Compiler error > shows syntax errors
+
+
+    ///left at 1:30  it was review class
+    //review 8 ending might have some abstraction concepts, but ashgar thaught in 5hr class
+
+

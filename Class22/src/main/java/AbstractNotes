@@ -1,0 +1,33 @@
+Abstraction -
+abstract means smth which isn't clear or not complete
+
+the abstract word means smth which isnt clear or incomplete.
+so we use abstraction to create methods which are incomplete meaning
+they dont have a body, they only have method headers.
+
+used when someone doesn't know what to do
+
+Abstraction -
+1) either we don't know how this method will be implemented so we dont want to
+write the code and leave it for other then we create abstract methods
+
+Abstract Method - doesn't has body means no block of code
+they only have Method Header meaning they would only have a
+
+1) returnType
+2) access modifier
+3) nameOfMethod
+4) Parameters
+
+Q: why they wont have Code in body?
+
+A: if im architect - just want to define for others to write
+     or i don't know how to write this code and others will do it
+-----------
+to achieve PolyMo;
+must inheritance
+must methodOverridden
+
+
+
+
