@@ -1,0 +1,94 @@
+Review 14 on Drive but Review 11 on GitHub
+
+Collection FrameWork:-
+    Collections framework is simply a collection of classes and interfaces.
+    which help us store the data easily. The classes in this framework are
+    dynamic and have a lot of built-in methods that we can use to manipulate
+    the data.
+
+    * dynamic means they can change, grow or shrink
+    * Problem's of array 1) they are fixed, whether you use them or not they will occupy the space
+                        2) they aren't classes so they don't have built in methods like delete,remove or etc
+                        while ArrayList is a class, so it has methods, built in methods.
+
+In Collection of FrameWork, there are 3 main categories of classes
+3 Main Interfaces
+1)List 2) Set 3) Map
+__________________________________________________1____________________________________________________
+    List:
+    1) List can store duplicate numbers.
+    2) The remember the order in which you insert the data.
+    There are two main classes which implement the list interface
+    ArrayList and LinkedList.
+    ArrayList internally USES an array. Which makes accessing the elements
+    Fast but adding or removing the elements is super slow in arrayList.
+    On the other hand LinkedList uses a double linkedList internally.
+
+*ArrayList :- they store data in a straight/ consecutive memory location and because
+of that, they can access the elements very fast BUT adding and removing the data from ArrayList is slow
+
+*LinkedList :- they store the data in a non-consecutive memory location i.e. RANDOM (here and there)
+so accessing them is SLOW but adding and removing is very FAST.
+__________________________________________________2_____________________________________________________
+Sets:
+    Sets don't allow duplicate elements.
+    There are three main types of sets.
+    1)HashSet 2) LinkedHashSet 3) TreeSet.
+1)HashSet:
+    Pros:
+        Hashset is Fast.
+    Cons:
+        They don't remember the order in which we insert the elements (random set)
+2) LinkedHashSet:
+    Pros:
+        They remember the order (original set)
+    Cons:
+        A little slow as compared to Hashset.
+3) TreeSet:
+    Pros:
+        They always keep the data sorted (ascending way), fastest in searching data
+    Cons:
+    The insertion is very slow, cuz its all organized, and if new things add-up it has to decide where to add it and in re-organize it again
+
+*difference between 'lists' and 'sets'
+ans= 'lists' allow duplicate elements and 'sets' don't, same is the case with their types.
+* there's no indexing in 'Sets' thats why there's no getMethod, but can use enchancedForloop to get all
+
+
+*in interview, say 'lists' 'sets' and 'maps' have more then 100 types but most famous and used are these 3 types.
+__________________________________________________3_____________________________________________________
+Maps:
+    Maps Allow us to store the data in pairs(key,value) unlike 'Lists' and 'sets' who deals with one element at one time
+    There are three Main types of Maps.
+    1) HashMap 2) LinkedHashMap 3) TreeMap
+1)HashMap:
+    Pros:
+        Hashset is Fast.
+    Cons:
+        They don't remember the order in which we insert the elements.
+2) LinkedHashMap:
+    Pros:
+        They remember the order.
+    Cons:
+        A little slow as compared to HashMap.
+3) TreeMap:
+    Pros:
+        They always keep the data sorted.
+    Cons:
+    The insertion is very slow.
+
+*'maps' dont use loops directly, they first need to be converted to 'entrySet' and then can have loop
+*similarly 'Sets' dont support
+
+_______________________________________________________________________________________________________
+
+File Handling:
+    Dealing with files reading/writing/copying/moving files using programming.
+    1) Location of the file /if we dont know the location we cant read or write the data
+    2) Navigate to the location/means bring the file to the (RAM)into java memory
+    3) A software/class that knows how to read/write data to that file.
+//once we have all these 3 steps then we can start dealing with the file
+
+ Configuration files:
+    Configuration files are used to store sensitive configuration related information. Like URLS,
+    usernames, passwords etc.

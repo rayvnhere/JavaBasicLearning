@@ -1,0 +1,47 @@
+*Compile means 'run' green triangle
+Exception:
+    An unwanted behaviour which disrupts the normal
+    flow of your program.
+
+There are three types of error;
+1) Syntax Error/Static error/ CompileTime error
+2) RunTime Error/Exceptions
+3) Logical Errors
+_______________________________________________________
+Syntax Error/Static error/ CompileTime error:-
+happens when we don't follow java's syntax/rules of code
+
+SOLVED BY
+They can be resolved by
+1) error appears even before running the code
+1) can get help from intellij
+2) by learning the syntax
+_______________________________________________________
+Logical Errors:-
+No compileTime error
+No runtime error
+e.g. ForLoop i>0
+
+SOLVED BY
+1) Looking by looking at the output(if came out as expected)
+2) By debugging code
+
+Console will give wrong answers
+_______________________________________________________
+RunTime Error/Exceptions:-
+Code looks fine cuz no error occur during compileTime(means before running the code)
+e.g. 10/0 (in console error)
+
+SOLVED BY
+try Catch Block
+_______________________________________________________
+
+How to read Exception Errors/RunTime Error
+
+1) Read from bottom
+Shows from where the error is coming from  (location of error in project)
+just click on the blue like and it will take you there
+
+2) Look at info in console after colon : it defines the error and
+before the : you can find that 'ErrorsLink' click and you will find error'sClass
+cuz Error aren't error they are classes available in Java (they say, 'when can that error happen')

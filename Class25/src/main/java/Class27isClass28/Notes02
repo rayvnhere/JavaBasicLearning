@@ -1,0 +1,27 @@
+* When exceptions error occurs not only does the specific line of code doesn't work,
+but it also doesn't let the rest of the program to work.
+
+WHY should we handle exceptions?
+ans: so that our program don't crash and shows vulnerable data
+
+* we can use the parentClass i.e "Exception" instead of using its childclass
+and get none exceptionError in case arithmeticException doesn't work for mm code, and i added it thinking it will work
+But the con of always using exception is, it will be harder to figure out the exact problem (cuz of being generic)
+there wont be a hint to solve the issue, of what went wrong, that's why
+should use "exception" as a last resort, so save our vulnerable data, and before that can use multiple exceptions see
+E1Exception
+
+* Points that we want to address for exceptionError:-
+
+1) Even if there's an error in the line, let the other program work
+
+2) Exceptions error message in console, Convert it into simple for others to understand
+
+3) Hide error's class, line and error info (it's vulnerable)
+________________________________________________________________________________________
+How to recover the file I deleted?
+ANS:  click on the folder where the file was > local history > show history > REVERT (my file)
+___________________________________________________________
+
+Unchecked Exception (Arithmetic, NullPointer, Runtime exceptions)
+Checked Exception ( IO, SQL exceptions )

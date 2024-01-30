@@ -1,0 +1,42 @@
+FileHandling:
+    Its the process of reading and writing
+    data to a file.
+If we want to read/write data to a file manually we need
+following:
+    1)Location of the file on the computer.
+    2) Navigate to the location.
+    3) A Special software that knows how to read/write
+    data to that file must be installed on the computer.
+
+Steps to create a new folder in your project: (File Directory)
+    1) Right click on your projectFolder.
+    2) Click on new-> Directory
+    3) Give name and hit enter
+
+Steps to create Config.properties file
+   right click on 'Files' folder > new > File > add name Config.properties
+
+*Config.properties are used to store properties related to project
+  1) secures credentials (never push to gitHub, save it securely privately)
+
+How to find location of any file in intellj?
+    right click on the file > copyPath/Reference of 'config'
+
+*Two Types of Path
+  1) absolute Path; gives full address
+  2) relative Path; gives address relative to the project/ not complete cuz
+                    e.g. same street then just let them know my apartment
+
+Utils
+     Utils is short for utility. It contains the code we need again and again.
+     It has the operations of;
+     1) reading the file
+     2) reading the values of database
+     3) open browsers
+
+Main components of Methods;
+  1) Access Modifier
+  2) headers
+  3) return Types
+  4) name
+  5) parameters
