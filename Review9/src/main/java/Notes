@@ -1,0 +1,51 @@
+PolyMorphism  -Polymorphism taken from two word poly(multi)and phism(form )
+               mean multiple forms
+
+              -its a mechanism in java that allos us to
+               the methods to behave differently depending upon
+               which object we are using to call them.
+There are two types of poloymorphism; dynamic and Static
+Dynamic PolyM- is achieved throguh method overrriding
+Static PolyM -is achieved through method oerLOading
+
+When should we use PolyM/benefits?
+A: it allows us to avoid code repetition
+if we have to call multiple methods from multiple class and they are
+all siblings classes
+
+what it does > same method will do different things
+depending on which object you use to call it
+
+What do we need to apply PolyM?
+we need the following things;
+1) there should be inheritance(common parent and child)
+2) method overriding
+3) type Casting (e.g Animal animal= new Dog();  )
+4) loops
+5) arrays
+
+whats the purpose of CoN?
+con is a block of code thetas helps to initize the instance Var of a class
+
+
+there are two types of Typecasting and there is two ways of writing it
+idk lol watch from after break
+((Dog)a).run();         ?
+Dog d2=(Dog)a;          ?
+
+
+*use polyM for webdrivers
+*con do not EVEr need REturnType
+*to achieve poly @override is a must without override we cannt use it object class
+*
+
+muhhayo's notes below
+Interface:
+Interfaces are like contracts which make sure that everybody is on the same page.
+They achieve this through abstraction.
+1.Inside the interface, all the methods are abstract and public.
+By default, all the variables we create inside the Interface are public-> static->final.
+  Interfaces themselves are also abstract and public by default.
+2.Inside interface, you cannot have instance variables. If there is no instance field, there is no need for
+  constructors or objects of Interface.
+The main of interface is everybody is following the same rules and everybody is on the same page.
